@@ -31,16 +31,16 @@ The system is split into a cross-platform mobile client and a high-performance N
 #### Sample Success Response (`200 OK`)
 ```json
 {
-  "gericht_name": "Coca-Cola Zero / Pizza Margherita",
-  "gesamt_kalorien": 850,
-  "proteine_g": 32,
-  "kohlenhydrate_g": 110,
-  "fette_g": 28,
-  "zutaten": [
+  "dish_name": "Water + Pizza",
+  "total_calories": 850,
+  "protein_g": 32,
+  "carbs_g": 110,
+  "fat_g": 28,
+  "ingredients": [
     {
-      "name": "Pizza Margherita",
-      "gewicht_g": 350,
-      "kalorien": 850
+      "name": "Pizza",
+      "weight_g": 350,
+      "calories": 850
     }
   ]
 }
